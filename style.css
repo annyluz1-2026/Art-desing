@@ -1,7 +1,23 @@
 body {
     background-color: blue;
+    padding: 25apx;
 }
 header {
-    background-color: light blue;
+    background-color: light rgb(72, 72, 132);
+}
+footer {
+  background-color: blueviolet;
 }
 
+.title {
+  	color: #5C6AC4;
+}
+
+nav a {
+  color: rgb(31, 5, 5);
+}
+img {
+  border-radius: 108px;
+  width: 40opx;
+  height: 350px;
+}
