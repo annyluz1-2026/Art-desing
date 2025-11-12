@@ -1,6 +1,9 @@
 body {
     background-color: blue;
     padding: 25apx;
+     font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
 }
 header {
     background-color: light rgb(72, 72, 132);
@@ -20,4 +23,80 @@ img {
   border-radius: 108px;
   width: 40opx;
   height: 350px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo da Tabela */
+#tabelaDados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaDados th, #tabelaDados td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#tabelaDados th {
+    background-color: #007bff;
+    color: white;
+    cursor: default;
+}
+
+#tabelaDados tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Células Editáveis */
+.editable {
+    cursor: pointer;
+}
+
+.editable:hover {
+    background-color: #e9e9e9;
+}
+
+/* Botões */
+#adicionarLinha {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+#adicionarLinha:hover {
+    background-color: #218838;
+}
+
+.excluirLinha {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.excluirLinha:hover {
+    background-color: #c82333;
 }
