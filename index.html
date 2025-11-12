@@ -43,7 +43,38 @@
     <footer>
         <p>&copy; 2025</p>
     </footer>
-
+<div class="container">
+        <h1>🔍 Tabela de Dados de Pesquisa</h1>
+        <button id="adicionarLinha">➕ Adicionar Linha</button>
+        
+        <table id="tabelaDados">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título da Pesquisa</th>
+                    <th>Status</th>
+                    <th>Data</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-id="1">
+                    <td class="editable">1</td>
+                    <td class="editable">Estudo de Mercado Alpha</td>
+                    <td class="editable">Em Andamento</td>
+                    <td class="editable">2023-10-01</td>
+                    <td><button class="excluirLinha">🗑️ Excluir</button></td>
+                </tr>
+                <tr data-id="2">
+                    <td class="editable">2</td>
+                    <td class="editable">Análise de Dados Beta</td>
+                    <td class="editable">Concluído</td>
+                    <td class="editable">2023-09-15</td>
+                    <td><button class="excluirLinha">🗑️ Excluir</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
